@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	long num[5], min, max;
+	int num[5], min, max;
 	for (int i = 0; i < 5; i++)
 	{
 		scanf_s("%ld", &num[i]);
@@ -19,6 +19,6 @@ int main()
 			max = num[i];
 		}
 	}
-	printf("%ld ", min);
-	printf("%ld", max);
+	printf("%d ", min);
+	printf("%d", max);
 }

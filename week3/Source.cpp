@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main2()
 {
 	int num[5], min, max;
 	for (int i = 0; i < 5; i++)
@@ -21,4 +21,5 @@ int main()
 	}
 	printf("%d ", min);
 	printf("%d", max);
+	return 0;
 }

@@ -1,15 +1,31 @@
-#include <stdio.h> 
+#include<stdio.h>
 int main()
 {
-    int x, num, sum = 0;
-    scanf_s("%d", num);
-    for (x = 0; x < num; x++)
-    {
-        if (x % 3 == 0 || x % 5 == 0)
-        {
-            sum += x;
-        }
-    }
-    printf("%d", sum);
-    return 0;
+	int a, b, x, sum = 0;
+	scanf_s("%d %d", &a, &b);
+	if (a < b)
+	{
+		x = a;
+		for (; b % x != 0 || a % x != 0;)
+		{
+			x--;
+
+		}
+		printf("%d", x);
+	}
+	else if (b < a)
+	{
+		x = b;
+		for (; a % x != 0 || b % x != 0;)
+		{
+			x--;
+
+		}
+		printf("%d", x);
+	}
+	else
+	{
+		printf("1");
+	}
+	return 0;
 }

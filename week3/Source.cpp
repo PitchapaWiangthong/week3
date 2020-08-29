@@ -4,7 +4,7 @@ int main2()
 	int num[5], min, max;
 	for (int i = 0; i < 5; i++)
 	{
-		scanf_s("%d", &num[i]);
+		scanf_s("%ld", &num[i]);
 	}
 	min = num[0];
 	max = num[0];

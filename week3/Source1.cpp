@@ -1,8 +1,9 @@
 #include <stdio.h> 
 int main()
 {
-    int x, sum = 0;
-    for (x = 0; x < 1000; x++)
+    int x, num, sum = 0;
+    scanf_s("%d", num);
+    for (x = 0; x < num; x++)
     {
         if (x % 3 == 0 || x % 5 == 0)
         {
